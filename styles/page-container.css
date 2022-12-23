@@ -1,0 +1,79 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+
+}
+
+.page-container > .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 40px;
+}
+
+.page-container > .left-column > .start-text-area {
+    font-family: "Roboto", sans-serif;
+    font-size: 4.25em;
+    color: dimgrey;
+    font-weight: 100;
+}
+
+.page-container > .left-column > .start-text-area span {
+    color: white;
+}
+
+.page-container > .left-column > .start-text-area i {
+    color: #cea135;
+}
+
+.page-container > .left-column > .end-text-area {
+    font-size: 2.85em;
+    color: dimgray;
+    font-weight: 100;
+    width: 800px;
+}
+
+.page-container > .left-column > .page-button-wrapper {
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+}
+
+.page-container > .left-column > .page-button-wrapper > .green-button-wrapper {
+    color: black;
+    margin-right: 20px;
+}
+
+.page-container > .left-column > .page-button-wrapper > .green-button-wrapper button {
+    font-size: 3.75em;
+    background-color: forestgreen;
+}
+
+.page-container > .left-column > .page-button-wrapper > .black-button-wrapper {
+    color: white;
+}
+
+.page-container > .left-column > .page-button-wrapper > .black-button-wrapper button {
+    font-size: 3.75em;
+    background-color: black;
+    color: white;
+}
+
+/* Right Column Styles */
+.image-wrapper img {
+    width: 1300px;
+    box-shadow: 0px 20px 20px 20px black;
+}
+
+.heading-text-wrapper {
+    font-size: 20px;
+    margin-top: 60px;
+    color: white;
+}
+
+.heading-text-wrapper h1 {
+    color: #5bb1d5;
+}

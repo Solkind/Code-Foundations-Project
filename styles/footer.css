@@ -1,0 +1,23 @@
+html {
+    background-color: #1a1a1a;
+}
+
+.footer {
+    display: flex;
+    background-color: #1a1a1a;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.footer-container {
+    display: flex;
+    background-color: dimgray;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 2.25em;
+    color: white;
+    width: 800px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}

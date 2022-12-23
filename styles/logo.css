@@ -1,0 +1,15 @@
+/* .left-column {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+} */
+
+.left-column > .logo-image {
+    position: relative;
+    top: 5px;
+    bottom: 0;
+    right: 0;
+    left: 15px;
+    height: 100%;
+    width: 100%;
+}
